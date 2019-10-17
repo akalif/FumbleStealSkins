@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="User Creation App Style.css">        
+</head>
+<body style= background-color:rgb(202,168,17)>
+
+     <h1>Register</h1>
+
+  <p><em><b>Please fill in this form to create an account.</b></em></p> <br>
+
+
+
+<form action="submit"></form>
+<div class="container">
+    First name:
+    <input type="text" name="firstname">
+
+    Last name:
+    <input type="text" name="lastname">
+
+
+
+
+          <label for="email"><b>Email</b></label>
+          <input type="text" placeholder="Enter Email" name="email" required>
+          <br>
+
+          <label for="psw"><b>Password</b></label>
+          <input type="password" placeholder="Enter Password" name="psw" required>
+
+          <label for="psw-repeat"><b>Repeat Password</b></label>
+          <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+          <br>           
+
+          <button type="submit" class="registerbtn">Register</button>
+        </div>
+
+
+
+
+
+        <div class="container">
+            <p>Already have an account? </p>
+          <label for="uname"><b>Username</b></label>
+          <input type="text" placeholder="Enter Username" name="uname" required>
+
+          <label for="psw"><b>Password</b></label>
+          <input type="password" placeholder="Enter Password" name="psw" required> 
+          <br>
+
+          <button type="submit">Login</button>
+          <label>
+            <input type="checkbox" checked="checked" name="remember"> Remember me
+          </label>
+
+
+          <button type="button" class="cancelbtn">Cancel</button>
+          <span class="psw"><b>Forgot password?</b></span>
+        </div>
+      </form>
+
+
+      <script type="text/javascript" src="js/userCreationApplication.js"></script>
+</body>
+</html>
